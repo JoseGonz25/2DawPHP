@@ -2,9 +2,18 @@
 
 declare (strict_types=1);
     
-include_once("247login.php");
+include("247ok.php");
+include("247ko.php");
 
-$_GET["user_password"];
-$_GET["user_name"];
+$contaseña=$_GET["password"];
+$usuario=$_GET["name"];
+
+$array = [
+    "juan" => 222,
+    "hola" => 222,
+];
+
+usuariocorrecto($usuario,);
+
 
 ?>

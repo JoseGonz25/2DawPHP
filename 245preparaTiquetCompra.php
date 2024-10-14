@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="245preparaTiquetCompra.php" method="get">
+<form action="245imprimeTiquetCompra.php" method="get">
     
     <?php 
         $cantidad = $_GET['cantproduc'];
@@ -27,7 +27,7 @@
         } 
         
     ?>
-    <input type="hidden" name="cantidad" value="<?=$cantidad?>">
+    <input type="hidden" name="cantidad" id="cantidad" value=<?=$cantidad?>>
     <li class="button">
         <button type="submit">Envíe su mensaje</button>
     </li>

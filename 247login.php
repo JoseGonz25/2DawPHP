@@ -1,20 +1,19 @@
 <?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<form action="245compruebaLogin.php" method='post'>
+<input type='text' id='name' name='name' />
 
-echo " <form action="245compruebaLogin.php" method='post'>
-<ul>
-  <li>
-    <label for='name'>Nombre:</label>
-    <input type='text' id='name' name='name' />
-  </li>
-  <li>
-    <label for='password'>Contraseña:</label>
-    <input type='text' id='password' name='password' />
-  </li>
-  <li class='button'>
-    <button type='submit'>Envíe su mensaje</button>
-  </li>
-</ul>
-</form>"
+<input type='text' id='password' name='password' />
 
-
+</form>
+</body>
+</html>
 ?>

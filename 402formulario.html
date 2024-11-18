@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="402formulario.php" method="post">
+        
+        <label for="name">Nombre :</label>
+        <input name="name" id="name">
+        <br>
+        <label for="email">email :</label>
+        <input name="email" id="email" type="email">
+        <br>
+        <label for="url">Url :</label>
+        <input name="url" id="url" type="url">
+        <br>
+        <label for="sexo">Sexo :</label>
+        <input name="sexo" id="femenino" type="radio">Fememinino
+        <input name="sexo" id ="masculino" type="radio">Masculino 
+        <br>
+        <label for="Numperson">Numero de convivientes en el domicilio :</label>
+        <input name="Numperson" id="Numperson" type="number">
+        <br>
+        <label for="aficiones">Aficiones:</label>
+        <input type="checkbox" name="aficiones[]" id="aficiones">Deportes
+        <input type="checkbox" name="aficiones[]" id="aficiones">Leer
+        <input type="checkbox" name="aficiones[]" id="aficiones">Escribir
+        <input type="checkbox" name="aficiones[]" id="aficiones">Deportes
+
+        <br>
+        <label>Menú:</label>
+        <select name="menu[]" multiple required>
+            <option name="menu[]" value="arroz con tomate">arroz con tomate</option>
+            <option name="menu[]" value="spagueti">spaqueti</option>
+            <option name="menu[]" value="macarrones">macarrones</option>
+            <option name="menu[]" value="carne">carne</option>
+            <option name="menu[]" value="sopa">sopa</option>
+        </select>
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+
+</body>
+</html>
